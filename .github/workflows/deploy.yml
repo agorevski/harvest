@@ -1,0 +1,46 @@
+name: Deploy to Azure
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile || yarn install
+
+      - name: Build
+        run: yarn build
+        env:
+          CI: false
+          GENERATE_SOURCEMAP: false
+
+      - name: Prepare deployment package
+        run: |
+          mkdir -p deploy
+          cp -r build deploy/
+          cp server.js deploy/
+          cp package.json deploy/
+          cd deploy
+          yarn install --production --frozen-lockfile || yarn install --production
+
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'trueyield'
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: deploy

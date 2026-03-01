@@ -1,0 +1,115 @@
+[
+  {
+    "id": 0,
+    "lptoken": "0x616e8BfA43F920657B3497DBf40D6b1A02D4608d",
+    "rewardPool": "0x00a7ba8ae7bca0b10a32ea1f8e2a1da980c6cad2",
+    "balancerPoolId": "0x5c6ee304399dbdb9c8ef030ab642b10820db8f56000200000000000000000014",
+    "name": "auraBAL",
+    "extras": [
+      {
+        "contract": "0x62D7d772b2d909A0779d15299F4FC87e34513c6d",
+        "token": "0xA13a9247ea42D743238089903570127DdA72fE44",
+        "name": "bbaUSD"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "lptoken": "0x3dd0843a028c86e0b760b1a76929d1c5ef93a2dd",
+    "rewardPool": "0xacada51c320947e7ed1a0d0f6b939b0ff465e4c2",
+    "balancerPoolId": "0x3dd0843a028c86e0b760b1a76929d1c5ef93a2dd000200000000000000000249",
+    "name": "auraBAL_lp",
+    "extras": [
+      {
+        "contract": "0xb1BCdf4bce3d5786eb10533D07E4595D1f1BC9c8",
+        "token": "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF",
+        "name": "AURA"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "lptoken": "0xa13a9247ea42d743238089903570127dda72fe44",
+    "rewardPool": "0xfb6b1c1a1ea5618b3cfc20f81a11a97e930fa46b",
+    "balancerPoolId": "0xa13a9247ea42d743238089903570127dda72fe4400000000000000000000035d",
+    "name": "bbaUSD"
+  },
+  {
+    "id": 3,
+    "lptoken": "0x1e19cf2d73a72ef1332c882f20534b6519be0276",
+    "rewardPool": "0x001b78cec62dcfdc660e06a91eb1bc966541d758",
+    "balancerPoolId": "0x1e19cf2d73a72ef1332c882f20534b6519be0276000200000000000000000112",
+    "name": "rETH"
+  },
+  {
+    "id": 4,
+    "lptoken": "0x32296969ef14eb0c6d29669c550d4a0449130230",
+    "rewardPool": "0xe4683fe8f53da14ca5dac4251eadfb3aa614d528",
+    "balancerPoolId": "0x32296969ef14eb0c6d29669c550d4a0449130230000200000000000000000080",
+    "name": "wstETH",
+    "extras": [
+      {
+        "contract": "0x00F54653e66Baf7ddCD09f6e59206F8906Bfa6eA",
+        "token": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+        "name": "LDO"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "lptoken": "0x25accb7943fd73dda5e23ba6329085a3c24bfb6a",
+    "rewardPool": "0x8c9e4a04adb0d543b33cab644135bfca523c40c8",
+    "balancerPoolId": "0x25accb7943fd73dda5e23ba6329085a3c24bfb6a000200000000000000000387",
+    "name": "wstETH_bbaUSD"
+  },
+  {
+    "id": 50,
+    "lptoken": "0x5aEe1e99fE86960377DE9f88689616916D5DcaBe",
+    "rewardPool": "0xd26948E7a0223700e3C3cdEA21cA2471abCb8d47",
+    "balancerPoolId": "0x5aee1e99fe86960377de9f88689616916d5dcabe000000000000000000000467",
+    "name": "steth_reth_sfrxeth"
+  },
+  {
+    "id": 55,
+    "lptoken": "0xD1eC5e215E8148D76F4460e4097FD3d5ae0A3558",
+    "rewardPool": "0x978653C02f2fBBDfd67CbC7f45c42262f213e0b5",
+    "balancerPoolId": "0xd1ec5e215e8148d76f4460e4097fd3d5ae0a35580002000000000000000003d3",
+    "name": "ohm_eth"
+  },
+  {
+    "id": 56,
+    "lptoken": "0x76FCf0e8C7Ff37A47a799FA2cd4c13cDe0D981C9",
+    "rewardPool": "0xB9D6ED734Ccbdd0b9CadFED712Cf8AC6D0917EcD",
+    "balancerPoolId": "0x76fcf0e8c7ff37a47a799fa2cd4c13cde0d981c90002000000000000000003d2",
+    "name": "ohm_dai"
+  },
+  {
+    "id": 61,
+    "lptoken": "0xFD1Cf6FD41F229Ca86ada0584c63C49C3d66BbC9",
+    "rewardPool": "0x08129a472dfb92A1596Bbe31f27c53914a990563",
+    "balancerPoolId": "0xfd1cf6fd41f229ca86ada0584c63c49c3d66bbc9000200000000000000000438",
+    "name": "pendle_eth"
+  },
+  {
+    "id": 65,
+    "lptoken": "0x831261f44931B7dA8ba0DcC547223c60BB75B47F",
+    "rewardPool": "0x2a596E721A9F1824F36c484e71f5bE80675Cca2b",
+    "balancerPoolId": "0x831261f44931b7da8ba0dcc547223c60bb75b47f000200000000000000000460",
+    "name": "wusdr_usdc"
+  },
+  {
+    "id": 67,
+    "lptoken": "0x1ee442b5326009Bb18F2F472d3e0061513d1A0fF",
+    "rewardPool": "0xAAd4eE162Dbc9C25cCa26bA4340B36E3eF7C1A80",
+    "balancerPoolId": "0x1ee442b5326009bb18f2f472d3e0061513d1a0ff000200000000000000000464",
+    "name": "reth_badger"
+  },
+
+  {
+    "id": 72,
+    "lptoken": "0x60683B05e9a39E3509D8fdb9C959f23170f8A0fa",
+    "rewardPool": "0x4d585a29dF0a8E18c26f662C6586ded6703062a8",
+    "balancerPoolId": "0x60683b05e9a39e3509d8fdb9c959f23170f8a0fa000000000000000000000489",
+    "name": "bbiUSD"
+  }
+]
