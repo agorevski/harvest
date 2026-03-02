@@ -122,3 +122,4 @@ public/icons
 workers-site
 wrangler.toml
 prod/
+/build
